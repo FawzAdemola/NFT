@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    color: white;
+    max-width: 17.3vw;
+    max-height: 80vh;
+    box-shadow: 0.5px 10px 3px 15px hsl(214, 57%, 7%), 2px 15px 3px 40px hsl(216, 51%, 10%);
+}
+
+.card .nft img{
+    border-radius: 7px;
+   width: 15vw;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.eth-days {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth, .clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    width: 10%;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 1rem 0;
+}
+
+.card > p {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: 
+}
+
+.eth-days > div > img {
+    width: 10px;
+    margin-right: 0.5rem;
+}
+
+.eth-days > .clock > img {
+    width: 14px;
+}
+
+.line {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    margin: 1rem 0;
+}
+
+.eth-days > .eth > h3 {
+    color: hsl(178, 100%, 50%)
+}
+
+footer p {
+    font-size: 11px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 1rem;
+}
